@@ -94,45 +94,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-* {
-  box-sizing: border-box;
-  font-family: 'Fira Mono';
-}
 
-#container {
-    width: 100%;
-}
 
-#container div {
-    width: 20vw;
-    height: 25vh;
-    float: left;
-    text-align: center;
-    border: 2px solid white;
-    background-color: tomato;
-    -webkit-transition: background-color 1s ease;
 
-}
 
-#container div:hover {
-    background-color: turquoise;
-}
-
-h1 {
-    font-size: 17px;
-    margin-top: 10vh;
-    color: white;
-    letter-spacing: 1px;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover {
-
-}
 
 
 
@@ -225,29 +190,9 @@ a:hover {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-/* Style adjustments for viewports that meet the condition */
 
-@media only screen and (max-width: 2000px) {
-    #container div {
-        width: 25vw;
-        height: 25vh;
-}
-@media only screen and (max-width: 1200px) {
-    #container div {
-        width: 33.3333333vw;
-        height: 25vh;
-}
-@media only screen and (max-width: 900px) {
-    #container div {
-        width: 50vw;
-        height: 25vh;
-}
-@media only screen and (max-width: 900px) {
-    h1 {
-        font-size: 12px;
-        margin-top: 11vh;
-    }
-        
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
