@@ -114,6 +114,10 @@ textarea {
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
+    display: -webkit-flex;
+    -webkit-justify-content: center; /* align horizontal */
+    -webkit-align-items: center; /* align vertical */
+    
     -webkit-transition: background-color 1s ease;
 
 }
