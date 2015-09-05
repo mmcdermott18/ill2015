@@ -111,6 +111,9 @@ textarea {
     /*border: 2px solid white;*/
     border-collapse: collapse;
     background-color: tomato;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
     -webkit-transition: background-color 1s ease;
 
 }
@@ -136,7 +139,6 @@ textarea {
 
 h1 {
     font-size: 17px;
-    margin-top: 10vh;
     color: white;
     letter-spacing: 1px;
 }
@@ -298,7 +300,8 @@ a:hover {
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 15px;
-        margin-top: 9vh;
+        /*margin-top: 9vh;*/
+        padding: 2px;
     }
         
 }
