@@ -94,61 +94,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-* {
-  box-sizing: border-box;
-  font-family: 'Fira Mono';
-}
+  
 
-#container {
-    width: 100vw;
-}
-
-#container div {
-    width: 20vw;
-    height: 25vh;
-    float: left;
-    text-align: center;
-    /*border: 2px solid white;*/
-    border-collapse: collapse;
-    background-color: tomato;
-    -webkit-transition: background-color 1s ease;
-
-}
-
-#container div:hover {
-    background-color: turquoise;
-}
-
-#container div:nth-child(odd) {
-        border-top: 4px solid white;
-        border-right: 4px solid white;
-    }
-    #container div:nth-child(even) {
-        border-top: 4px solid white;
-        border-right: 4px solid white;
-    }
-    #container div:nth-child(n+16) {
-        border-bottom: 4px solid white;
-    }
-    #container div:nth-child(5n+1) {
-        border-left: 4px solid white;
-    }
-
-h1 {
-    font-size: 17px;
-    margin-top: 10vh;
-    color: white;
-    letter-spacing: 1px;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover {
-
-}
 
 
 
@@ -236,71 +183,14 @@ a:hover {
     clear: both;
 }
 
-.nowrap {
-    white-space: nowrap;
-}
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-/* Style adjustments for viewports that meet the condition */
 
-@media only screen and (max-width: 1400px) {
-    #container div {
-        width: 25vw;
-        height: 25vh;
-        background-color: darkorange;
-    }
-    #container div:nth-child(odd) {
-        border-top: 4px solid white;
-        border-right: 4px solid white;
-    }
-    #container div:nth-child(even) {
-        border-top: 4px solid white;
-        border-right: 4px solid white;
-    }
-    #container div:nth-child(n+16) {
-        border-bottom: 0px solid white;
-    }
-    #container div:nth-child(n+17) {
-        border-bottom: 4px solid white;
-    }
-    #container div:nth-child(5n+1) {
-        border-left: 0px solid white;
-    }
-    #container div:nth-child(4n+1) {
-        border-left: 4px solid white;
-    }
-    
-@media only screen and (max-width: 800px) {
-    #container div {
-        width: 50vw;
-        height: 25vh;
-        border: none;
-        background-color: gold;
-    }
-    #container div:nth-child(odd) {
-        border-top: 4px solid white;
-        border-right: 4px solid white;
-        border-left: 4px solid white;
-    }
-    #container div:nth-child(even) {
-        border-top: 4px solid white;
-        border-right: 4px solid white;
-    }
-    #container div:nth-child(n+17) {
-        border-bottom: 0px solid white;
-    }
-    #container div:nth-child(n+19) {
-        border-bottom: 4px solid white;
-    }
-@media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 16px;
-        margin-top: 11vh;
-    }
-        
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
