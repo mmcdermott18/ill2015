@@ -99,7 +99,7 @@ textarea {
   font-family: 'Fira Mono';
 }
 
-#container {
+#container, {
     width: 100vw;
 }
 
@@ -135,6 +135,38 @@ textarea {
         border-left: 4px solid white;
     }
 
+.center {
+    cursor: default;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    display: -webkit-flex;
+    -webkit-justify-content: center; /* align horizontal */
+    -webkit-align-items: center; /* align vertical */
+}
+
+header {
+    width: 100vw;
+    height: 25vh;
+    background-color: tomato;
+}
+
+header h1 {
+    font-size: 48px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#nextcontainer {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.due, .bring, .general {
+    width: 20vw;
+    float: left;
+}
+
 h1 {
     font-size: 17px;
     color: white;
@@ -142,7 +174,28 @@ h1 {
     padding: 0 15px 0 10px;
 }
 
+.due h1, .bring h1, .general h1 {
+    font-size: 24px;
+    color: tomato;
+    padding: 0;
+    text-align: center;
+}
+p {
+    color: white;
+    line-height: 1.2em;
+}
+
 a {
+    text-decoration: none;
+    color: inherit;
+    -webkit-transition: color 1s ease;
+}
+
+a:hover {
+    color: turquoise;
+}
+
+a.box {
     width: 20vw;
     height: 25vh;
     text-decoration: none;
@@ -156,7 +209,7 @@ a {
     -webkit-align-items: center; /* align vertical */
 }
 
-a:hover {
+a.box:hover {
 
 }
 
@@ -283,9 +336,19 @@ a:hover {
         border-left: 4px solid white;
     }
 
-    a {
+    a.box {
     width: 25vw;
     height: 25vh;
+    }
+
+    #nextcontainer {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .due, .bring, .general {
+        width: 30vw;
+        float: left;
     }
     
 @media only screen and (max-width: 800px) {
@@ -310,9 +373,21 @@ a:hover {
     #container div:nth-child(n+19) {
         border-bottom: 4px solid white;
     }
-    a {
+    a.box {
     width: 50vw;
     height: 25vh;
+    }
+
+    #nextcontainer {
+        width: 100vw;
+    }
+    .general, .due, .bring {
+        width: 80vw;
+        margin: 0 10vw;
+        display: block;
+    }
+    header h1 {
+        font-size: 20px;
     }
 }
 @media only screen and (max-width: 600px) {
