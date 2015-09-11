@@ -103,22 +103,22 @@ textarea {
     width: 100vw;
 }
 
-.block {
+.block, #about {
     width: 20vw;
     height: 25vh;
     float: left;
     text-align: center;
-    /*border: 2px solid white;*/
-    border-collapse: collapse;
     background-color: tomato;
     
     -webkit-transition: background-color 1s ease;
 
 }
 
-#container div:hover {
+.block:hover {
     background-color: turquoise;
 }
+
+
 
 #container div:nth-child(odd) {
         border-top: 4px solid white;
@@ -149,6 +149,8 @@ header {
     width: 100vw;
     height: 25vh;
     background-color: tomato;
+    border: 4px solid white;
+    -webkit-transition: background-color 1s ease;
 }
 
 header h1 {
@@ -157,7 +159,11 @@ header h1 {
     text-align: center;
 }
 
-#nextcontainer {
+header:hover {
+    background-color: turquoise;
+}
+
+#nextcontainer, #classcontainer {
     width: 60vw;
     margin: 0 auto;
 }
@@ -166,24 +172,43 @@ header h1 {
     width: 20vw;
     float: left;
 }
-
+.half {
+    width: 48%;
+    margin: 0 1%;
+    float: left;
+}
 h1 {
     font-size: 17px;
     color: white;
     letter-spacing: 1px;
     padding: 0 15px 0 10px;
 }
+nav {
+    width: 100%;
+}
+#classcontainer nav h2 {
+    font-size: 15px;
+    text-align: center;
+}
 
-.due h1, .bring h1, .general h1 {
+#nextcontainer h1 {
     font-size: 24px;
-    color: tomato;
+    color: turquoise;
     padding: 0;
     text-align: center;
 }
-p {
-    color: white;
-    line-height: 1.2em;
+
+#classcontainer h1 {
+    text-align: left;
+    color: black;
+    padding: 0;
+    margin: 0;
 }
+#classcontainer h2 {
+    font-size: 16px;
+    text-align: left;
+}
+
 
 a {
     text-decoration: none;
@@ -213,6 +238,16 @@ a.box:hover {
 
 }
 
+header a.box {
+    width: 100vw;
+    height: 25vh;
+    text-decoration: none;
+    color: inherit;
+}
+
+header a.box:hover {
+
+}
 
 
 
@@ -310,9 +345,12 @@ a.box:hover {
 /* Style adjustments for viewports that meet the condition */
 
 @media only screen and (max-width: 1400px) {
-    #container div {
+    .block, #about {
         width: 25vw;
         height: 25vh;
+        background-color: darkorange;
+    }
+    header {
         background-color: darkorange;
     }
     #container div:nth-child(odd) {
@@ -337,8 +375,8 @@ a.box:hover {
     }
 
     a.box {
-    width: 25vw;
-    height: 25vh;
+        width: 25vw;
+        height: 25vh;
     }
 
     #nextcontainer {
@@ -350,12 +388,16 @@ a.box:hover {
         width: 30vw;
         float: left;
     }
+}
     
 @media only screen and (max-width: 800px) {
-    #container div {
+    .block, #about {
         width: 50vw;
         height: 25vh;
         border: none;
+        background-color: gold;
+    }
+    header {
         background-color: gold;
     }
     #container div:nth-child(odd) {
@@ -378,17 +420,22 @@ a.box:hover {
     height: 25vh;
     }
 
-    #nextcontainer {
-        width: 100vw;
+    #nextcontainer, #classcontainer {
+        width: 80vw;
+        margin: 0 auto;
     }
     .general, .due, .bring {
         width: 80vw;
-        margin: 0 10vw;
         display: block;
     }
     header h1 {
         font-size: 20px;
     }
+    .half {
+    width: 98%;
+    margin: 0 1%;
+    float: left;
+}
 }
 @media only screen and (max-width: 600px) {
     h1 {
