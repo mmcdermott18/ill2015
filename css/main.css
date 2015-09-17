@@ -249,6 +249,10 @@ header a.box:hover {
 
 }
 
+.unicode {
+    font-family: monospace;
+    font-size: 100px;
+}
 
 
 
