@@ -98,21 +98,25 @@ body{
                 background-color:#333;
                 color:#FFF;
                 font-size:14px;
-                margin:50px 30px 20px 30px;
-                background-image: url(https://s-media-cache-ak0.pinimg.com/736x/e6/b5/e1/e6b5e1a2d745315db02355d9934cd6e3.jpg);
+                margin:30px 30px 20px 30px;
+                
             }
 
 a{
                 color:#3BB;
             }
-            .img{
-                padding:30px;
-
-            }
-div{
-
+h1{
+    font-size:40px;
+    margin:20px;
+    letter-spacing:3px;
 
 }
+.img{
+                margin:30px;
+                padding:20px;
+
+            }
+
 .dash{
     width:100px;
     height:100px;
@@ -122,10 +126,6 @@ div{
     border-radius:30px;
     overflow:hidden;
 }
-.big{
-    width:400px;
-}
-
 
 
 
