@@ -95,7 +95,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #999999;
+    float: left;
+    margin-left: 50px
 
+
+
+}
 
 
 
