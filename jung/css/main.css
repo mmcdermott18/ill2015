@@ -95,7 +95,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+div {
+    width:100px;
+    height:100px;
+    background-color: tomato;
+    float: left;
+    margin: 50px;
+    border-radius: 25px;
 
+
+
+}
+
+.orange {
+    background-color: pink;
+}
 
 
 
