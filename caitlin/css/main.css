@@ -95,12 +95,19 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+div{
+width: 100px;
+height:100px;
+background-color: black;
+float: left; 
+margin-left:20px;
+margin-right: 30px
+}
 
 
-
-
-
-
+.gray {
+    background-color:gray;  
+}
 
 
 
