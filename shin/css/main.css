@@ -95,10 +95,22 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    float:  left;
+    margin: 25px;
+}
 
 
-
-
+.orange{
+    background-color: orange;
+    width: 500px;
+    height: 500px;
+    border: 20px dotted pink
+    margin: -100px;
+}
 
 
 
