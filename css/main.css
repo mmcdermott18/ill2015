@@ -164,12 +164,12 @@ header:hover {
 }
 
 #nextcontainer, #classcontainer {
-    width: 60vw;
+    width: 90vw;
     margin: 0 auto;
 }
 
 .due, .bring, .general {
-    width: 20vw;
+    width: 30vw;
     float: left;
 }
 .half {
@@ -254,6 +254,9 @@ header a.box:hover {
     font-size: 100px;
 }
 
+li a {
+    text-decoration: underline;
+}
 
 
 
