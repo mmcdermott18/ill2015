@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ 
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -95,9 +95,36 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container {
+margin: 0 auto;
+width: 400px;
+}
 
+.body {
+width: 400px;
 
+}
 
+.plum {
+width: 200px;
+height: 200px;
+background-color: plum;
+float: left;
+margin: -50px;
+border-radius: 200px;
+opacity: 0.4;
+
+}
+
+.tomato {
+width: 100px;
+height: 100px;
+background-color: tomato;
+float: left;
+margin: -50px;
+border-radius: 10px;
+
+}
 
 
 

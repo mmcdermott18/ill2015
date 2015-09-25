@@ -94,12 +94,33 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+div { 
+     width: 100px;
+     height: 100px;
+     background-color: tomato;
+     float: left;
+     margin: 20px;
 
 
 
 
 
 
+
+
+}
+
+
+.orange{
+        background-color: orange;
+        width: 500px;
+        height: 500px;
+        border: 20px dotted yellow;
+     }
+
+.blue{
+    background-color: blue;
+}
 
 
 

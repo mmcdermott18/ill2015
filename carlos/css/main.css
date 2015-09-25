@@ -95,11 +95,29 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: #33cccc;
+    float: right;
+    margin: 50px;
+    border-radius: 34px;
 
 
 
+}
 
+.container .orange {
+    background-color: orange;
+   
 
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: none;
+}
 
 
 

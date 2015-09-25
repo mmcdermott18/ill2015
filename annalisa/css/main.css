@@ -95,11 +95,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(17, 200, 42);
+    float:left;
+    margin-left: 50px;
+    border-radius: 100px
 
+}
 
+.blue {
+    background-color: blue;
+    float:right;
+}
 
-
-
+img.displayed {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
