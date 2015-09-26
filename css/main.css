@@ -398,7 +398,7 @@ li a {
 }
     
 @media only screen and (max-width: 800px) {
-    .block s{
+    .block {
         width: 50vw;
         height: 25vh;
         border: none;
