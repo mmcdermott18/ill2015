@@ -95,24 +95,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-div{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(153,181,240);
-    float: left;
-    margin: 50px;  
-    border-radius: 25px;
+img {
+    padding: 20px;
 }
-
-
-.pink {
-    background-color: rgb(255,151,115);
-}
-
-.forest {
-    background-color: rgb(149,213,183)
-}
-
 
 
 
