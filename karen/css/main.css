@@ -97,22 +97,46 @@ textarea {
 body{
                 background-color:#333;
                 color:#FFF;
-                font-size:14px;
-                margin:30px 30px 20px 30px;
+                font-size:18px;
+                font-family:"Trebuchet MS", Helvetica, sans-serif;
                 
             }
 
+header{
+    position:relative;
+    height:50px;
+    padding-top:30px;
+    margin-bottom:20px;
+}
+
+header ul li{
+    list-style: none;
+    float:left;
+    margin-right:20px;
+}
 a{
-                color:#3BB;
-            }
+    text-decoration: none;
+}
+a:link{
+    color:#3BB;
+}
+a:visited{
+    color:#199;
+}
+a:hover{
+    color:#4CC;
+}
+a:active{
+    color:#333;
+}
 h1{
     font-size:40px;
-    margin:20px;
+    margin:20px 20px 20px 40px;
     letter-spacing:3px;
 
 }
 .img{
-                width: 500px;
+                width: 367px;
                 margin:0 auto;
 
             }
@@ -127,7 +151,9 @@ h1{
     overflow:hidden;
 }
 
-
+.clear{
+    clear:both;
+}
 
 
 
