@@ -97,9 +97,18 @@ textarea {
 
 
 
+div {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 40px;
+border-radius: 25px;
+    background-color: rgb(200,150,95);
+}
 
-
-
+.blue {
+    background-color: blue;
+}
 
 
 
