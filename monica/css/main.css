@@ -94,7 +94,19 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+div {width: 100px;
+    height: 100px;
+    background-color: turquoise
+    ;float: left;
+    margin: 50px
+    ;border-radius:25px;
+    
 
+    }
+
+    .yellow {
+        background-color: yellow;
+    }
 
 
 
