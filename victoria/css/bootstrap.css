@@ -2632,7 +2632,8 @@ input[type="search"] {
   }
 }
 .form-group {
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 .radio,
 .checkbox {
@@ -4079,10 +4080,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-top-right-radius: 0;
 }
 .navbar {
-  position: relative;
+  position: fixed;
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+  width:100%;
+  z-index: 1;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -6602,6 +6605,7 @@ button.close {
 	border-radius:5px;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
+  z-index:99;
 }
 
 
