@@ -134,10 +134,13 @@ h1{
     margin:20px 20px 20px 40px;
     letter-spacing:3px;
 
-
-
-
 }
+p{
+    font-size:16px;
+}
+
+
+
 .roughs{
                 margin-right:20px;
                 float:left;
@@ -156,11 +159,21 @@ h1{
 }
 
 #about{
-    width:550px;
+    width:500px;
 }
 
+#description{
+    width:100px;
+    float:left;
+    height:500px;
+    position: relative;
+}
 
-
+#lettering{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
 
 /* ==========================================================================
    Helper classes
