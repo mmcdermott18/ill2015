@@ -254,8 +254,12 @@ header a.box:hover {
     font-size: 100px;
 }
 
-li a {
+li a, #classcontainer a {
     text-decoration: underline;
+}
+.austin {
+    font-family: 'austin';
+    font-size: 72px;
 }
 
 
