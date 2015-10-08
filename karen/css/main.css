@@ -96,44 +96,93 @@ textarea {
    ========================================================================== */
 body{
                 background-color:#333;
-                color:#FFF;
-                font-size:14px;
-                margin:30px 30px 20px 30px;
+                color:#CCC;
+                font-size:18px;
+                font-family:"Trebuchet MS", Helvetica, sans-serif;
                 
             }
 
+header{
+    position:relative;
+    height:50px;
+    padding-top:30px;
+    margin-bottom:20px;
+}
+
+header ul li{
+    list-style: none;
+    float:left;
+    margin-right:20px;
+}
 a{
-                color:#3BB;
-            }
+    text-decoration: none;
+}
+a:link{
+    color:#3BB;
+}
+a:visited{
+    color:#199;
+}
+a:hover{
+    color:#4CC;
+}
+a:active{
+    color:#333;
+}
 h1{
     font-size:40px;
-    margin:20px;
+    margin:20px 20px 20px 40px;
     letter-spacing:3px;
 
 }
-.img{
-                width: 500px;
-                margin:0 auto;
-
-            }
-
-.dash{
-    width:100px;
-    height:100px;
-    background-color:#FFF;
-    margin:10px;
-    float:left;
-    border-radius:30px;
-    overflow:hidden;
+p{
+    font-size:16px;
 }
 
 
 
+.roughs{
+                margin-right:20px;
+                float:left;
+                margin-bottom:20px;
+            
+}
+
+.clear{
+    clear:both;
+}
+
+.smol{
+    width:100px;
+    float:left;
+}
+
+.bunches{
+    margin-bottom:50px;
+}
+#content{
+    position: relative;
+    margin:20px 40px 20px 40px;
+
+}
+
+#about{
+    width:500px;
+}
+
+#description{
+    width:100px;
+    float:left;
+    height:500px;
+    position: relative;
+}
 
 
-
-
-
+#lettering{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
 
 /* ==========================================================================
    Helper classes

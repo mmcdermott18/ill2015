@@ -1,36 +1,28 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Michael</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="../apple-touch-icon" href="../apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
+        <title>COLORS</title>
         <link rel="stylesheet" href="css/main.css">
-        <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Below here you should have two images (On of some E's and one of your name) -->
-        <img src="img/2.jpg">
-        <img src="img/fog.jpg">
-        <!-- Below here you should have the title of the book you chose to redesign and three cover images) -->
-        <p>Redesign book - The Catcher in the Rye</p>
-        <img src="img/2.jpg">
-        <img src="img/2.jpg">
-        <img src="img/fog.jpg">
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-        <script src="../js/plugins.js"></script>
-        <script src="../js/main.js"></script>
+        <div id="button"><h1>Click me</h1></div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var counter = 0;
+                var colors = [
+                        "#eeeeee",
+                        "#00ff00",
+                        "#ff0000",
+                        "#000000"      
+                ];
+                var $body = $('body');
+                $('#button').click(function(){
+                    $body.css({
+                        "background-color": colors[(counter++)%colors.length]
+                    })
+                });
+            });
+        </script>
     </body>
 </html>

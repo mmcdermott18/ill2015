@@ -94,14 +94,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-div {
-    width:100px;
-    height:100px;
-    background-color: rgb(255,200,51);
-    float: left;
-    margin:50px;
+div{
+    width: 900px;
 }
+
 
 .blue {
     width:300px;
@@ -119,7 +115,9 @@ div {
 
 }
 
-
+a{
+    text-decoration: none;
+}
 
 
 

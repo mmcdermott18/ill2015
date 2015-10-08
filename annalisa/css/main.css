@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-div {
+/*div {
     width: 100px;
     height: 100px;
     background-color: rgb(17, 200, 42);
@@ -108,14 +108,20 @@ div {
 .blue {
     background-color: blue;
     float:right;
+}*/
+
+p {
+    font-family: "Courier New", Courier, monospace;
 }
 
-img.displayed {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
+#container{
+    width:90%;
+    margin: 0 auto;
 }
 
+img{
+    max-width: 1000px;
+}
 
 
 
