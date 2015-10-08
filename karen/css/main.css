@@ -152,6 +152,14 @@ p{
     clear:both;
 }
 
+.smol{
+    width:100px;
+    float:left;
+}
+
+.bunches{
+    margin-bottom:50px;
+}
 #content{
     position: relative;
     margin:20px 40px 20px 40px;
@@ -168,6 +176,7 @@ p{
     height:500px;
     position: relative;
 }
+
 
 #lettering{
     position:absolute;
