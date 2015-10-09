@@ -95,13 +95,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
 .container {
 margin: 0 auto;
 width: 400px;
 }
 
+.projectpage {
+margin: 0 auto;
+width: 800px;
+background-color: #000000;
+color: #FFFFFF;
+padding: 10px;
+
+}
+
 .body {
 width: 400px;
+margin: 0 auto;
 
 }
 
