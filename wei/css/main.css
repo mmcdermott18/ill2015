@@ -94,31 +94,32 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-div{
-    width: 900px;
+
+
+
+#container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 500px;
 }
 
-
-.blue {
-    width:300px;
-    height:50px;
-    background-color: rgb(51,84,107);
-    border-radius: 70px;
-
-}
-
-.pink {
-    width: 50px;
-    height:100px;
-    background-color: red;
-    border-radius: 200px;
-
-}
-
-a{
+a:link {
     text-decoration: none;
 }
 
+a:visited {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+}
 
 
 
