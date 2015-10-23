@@ -9,38 +9,46 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-#page {
-    text-align: center;
-    background-color: #cae0ba;}
-
-div.first {
-    text-align: center;
+body{
+    background-color: #a1b779
 }
 
-img.pages {
-    width: 250px;
-    height: 375px;
-    margin: 20px auto 20px auto;
+img {
+    margin: 10px;
 }
 
-img.large{
-    display: block;
-    height: 300;
-    width: 420;
-    margin: 20px auto 20px auto;
+h1 {
+    font-size: 70px;
+    padding: 10px;
+    background-color: #f6f2d7;
 }
 
-p {
-    font-family: "Avenir";
-    text-align: center;
-}
-
-div.firsttext {
-    text-align: center;
+div.header {
+    height: 100px;
+    margin: 50px;
+    border: none;
 }
 
 h3 {
-    font-family: "Noteworthy Light", "Tw Cen MT", "Gill Sans";
-     text-align: center;
-     font-size: 28px;
+    font-family: "Tw Cent MT", "Gill Sans";
+    font-size: 24px;
+    margin: 30px;
+    background-color: #f6f2d7;
+    padding: 10px;
+}
+
+p {
+    font-family: "Gill Sans";
+    font-style: bold;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background-color: #b8c69e;
+    padding: 10px;
+    width: 1000px;
+}
+
+div.first {
+    margin: 0px auto;
+    text-align: center;
 }
