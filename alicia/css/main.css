@@ -32,16 +32,21 @@ img.cover1 {
     margin: 0px auto;
 }
 
+img.header {
+    height: 60px;
+}
+
 h1 {
     font-family: "Rockwell";
     font-size: 65px;
+    color: #634f45;
     padding: 10px;
     background-color: #f6f2d7;
 }
 
 div.header {
     height: 100px;
-    margin: 50px;
+    margin: 20px;
     margin-left: 30px;
     border: none;
 }
@@ -49,6 +54,7 @@ div.header {
 h3 {
     font-family: "Tw Cent MT", "Gill Sans";
     font-size: 24px;
+    color: #634f45;
     margin: 30px;
     margin-right: 50px;
     background-color: #f6f2d7;
@@ -59,6 +65,7 @@ p {
     font-family: "Gill Sans";
     font-style: bold;
     font-size: 18px;
+    color: #634f45;
     margin-left: 50px;
     margin-bottom: 20px;
     margin-right: 70px;
@@ -78,5 +85,10 @@ div.firsttext {
 
 div.final {
     margin: 0px auto;
+    text-align: center;
+}
+
+div.dechead {
+    display: block;
     text-align: center;
 }
