@@ -10,7 +10,12 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@font-face { font-family: 'Gotham Rounded';
+src: url('../font/GothamRnd-Light.otf');  
+}
+
 html {
+    font-family: 'Gotham Rounded', 'Raleway' sans-serif !important;
     color: #222;
     font-size: 1em;
     line-height: 1.4;
