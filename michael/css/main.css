@@ -1,14 +1,41 @@
-.nocursor {
-    cursor: none;
+#container {
+	width: 90vw;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
 }
-.cursor {
-    cursor: default !important;
+header {
+	position: fixed;
+	top: 0;
+	background-color: white;
 }
-#img {
-    position: absolute;
-    top: -100px;
-    left: -100px;
-    width: 12px;
-    height: 17px;
-    background-image: url(../img/pointer.png);
+#title {
+	width: 90vw;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.project:first-of-type {
+	margin: 80px 0 4vw 0;
+}
+
+.project {
+	margin: 4vw 0;
+	border-bottom: 3px dashed black;
+}
+img {
+	max-width: 100%;
+	margin: 0 0 10px 0;
+}
+h3 {
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .08em;
+}
+h1 {
+	font-size: 2em;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
 }
