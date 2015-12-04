@@ -32,6 +32,12 @@ img.cover1 {
     margin: 0px auto;
 }
 
+img.specimen {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
 img.header {
     height: 60px;
 }
