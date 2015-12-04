@@ -105,7 +105,7 @@ textarea {
     max-height: 500px;
 }*/
 
-#container{
+/*#container{
     margin:0;
     position:absolute;
     
@@ -130,9 +130,49 @@ p{
 
 h3{
     text-align: center;
+}*/
+
+#container {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header {
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+#title {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.project:first-of-type {
+    margin: 80px 0 4vw 0;
 }
 
-
+.project {
+    margin: 4vw 0;
+    border-bottom: 3px dashed black;
+}
+img {
+    max-width: 100%;
+    margin: 0 0 10px 0;
+}
+h3 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .08em;
+}
+h1 {
+    font-size: 2em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
 
 
 
